@@ -1,0 +1,19 @@
+[05-Oct-2020 09:22:43 UTC] Astra Addon: DB version updated!
+[19-Nov-2020 17:08:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(8, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/enemer/public_html/elson/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/enemer/public_html/elson/wp-includes/class-wp-hook.php(287): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/enemer/public_html/elson/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5  in /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[25-Nov-2020 18:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:281
+Stack trace:
+#0 /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(162): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/enemer/public_html/elson/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/enemer/public_html/elson/wp-includes/class-wp-hook.php(287): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/enemer/public_html/elson/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+ in /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 281
+[15-Dec-2020 05:49:15 UTC] Astra Addon: DB version updated!
+[18-Dec-2020 07:45:51 UTC] PHP Warning:  unlink(Bez nazwy-1-05.png): No such file or directory in /home/enemer/public_html/elson/wp-content/plugins/elementor-pro/modules/assets-manager/asset-types/icons/custom-icons.php on line 180
